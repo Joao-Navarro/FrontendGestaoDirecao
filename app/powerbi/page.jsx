@@ -1,5 +1,5 @@
 import React from 'react';
-import './Page.css'; // Importando o arquivo CSS
+import './page.module.css'; // Importando o arquivo CSS
 
 const Page = () => {
     return (
