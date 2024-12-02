@@ -18,7 +18,8 @@ export default function EditUserPage({ params }) {
 
     useEffect(() => {
         fetchUser();
-    }, []);
+      }, [fetchUser]); // Adicione fetchUser como dependência
+      
 
     const fetchUser = async () => {
         const res = await fetch(`http://localhost:3001/alunos/${params.RM}`);
