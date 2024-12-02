@@ -1,0 +1,330 @@
+.body {
+
+  height: 900px
+
+}
+
+
+.text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+  }
+  
+  
+  .filtro{
+  
+  
+    display: flex;
+  
+  
+    justify-content: space-around;
+  
+  
+    width: 100%;
+  
+  
+    align-items: center;
+  
+  
+    flex-direction: row;
+  
+  
+    margin-top: 3%;
+  
+  
+    margin-bottom: 3%;
+  }
+  
+      
+  .filtro input {
+  
+    border-radius: 5px;
+  
+    border-color: solid black 2px;  
+
+    text-align: center;
+  
+    background-color: #acacac;
+  
+    padding: 10px;
+  
+  }
+  
+  .button {
+  
+  
+    display: flex;
+  
+  
+    margin-right: 5%;
+  
+  
+    background-color: #878787;
+   
+    border-radius: 5%;
+  
+  
+    padding: 10px;
+  
+  
+    border-radius: 10px;
+  
+
+  }
+  
+  
+  .button:hover {
+  
+  
+    background-color: #a3a1a1;
+    cursor: pointer;
+  
+  
+  }
+
+  .button option:hover {
+  
+    background-color: #000;
+  
+  }
+  
+  
+  .ano {
+  
+  
+    display: flex;
+  
+  
+    background-color: #878787;
+  
+  
+    padding: 10px;
+  
+  
+    border-radius: 10px;
+  
+  
+    justify-content: space-around;
+  
+  
+    width: 15%;
+  }
+  
+  
+  .input {
+  
+  
+    border-radius: 5px;
+  
+  
+    border-color: solid black 5px;
+  
+  
+    text-align: center;
+  
+  
+    background-color: #acacac;
+  
+  
+  }
+  
+  
+  
+  .botao {
+  
+  
+    margin-bottom: 6.7%;
+  
+  
+    display: flex;
+  
+  
+    justify-content: space-around;
+  
+  
+  }
+
+  .back {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 50%;
+
+    cursor: pointer;
+
+    background-color: #878787;
+   
+    border-radius: 5%;
+  
+    padding: 10px;
+  
+    border-radius: 10px;
+
+    margin-left: 25%;
+
+    margin-top: 5%;
+
+    text-decoration: none;
+
+    color: #000;
+    
+    border: #000 1px solid;
+
+  }
+  
+  
+  .table {
+  
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  
+  .table th, .table td {
+    padding: 15px;
+    border: 1px solid #000000;
+  }
+  
+  
+  .table th {
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #000000;
+  }
+  
+  
+  .table td {
+    border-bottom: 1px solid #000000;
+  }
+  
+  .msgSucesso {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1000;
+    transition: opacity 0.5s ease;
+  }
+  
+  .msgErro {
+    position: fixed;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #8a1007;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+    transition: opacity 0.5s ease;
+  }
+
+  .editLink {
+
+    text-decoration: none;
+
+    color: black;
+
+    background-color: #878787;
+
+    padding: 10px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin: 5%;
+
+    border-radius: 10px;
+
+    border: #000 solid 1px;
+
+    text-align: center;
+
+  }
+  
+  .editButton:hover {
+    background-color: #a3a1a1; /* Cor de fundo ao passar o mouse */
+  }
+
+  .tableAll {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: center;
+
+    overflow: auto;
+
+  }
+  
+  
+  @media only screen and (max-width: 800px) {
+    .filtro {
+      flex-direction: row;
+     
+      flex-wrap: wrap;
+     
+      width: 90%;
+  
+  
+      display: flex;justify-content: space-around;
+  
+  
+      margin-left: 5%;
+    }
+  
+  
+    .button {
+     
+      justify-content: space-around;
+     
+      margin: 6%;
+    }
+    .ano {
+      width: 50%;
+    }
+    .input {
+      width: 100%;
+    }
+    .botao {
+      width: 100%;
+      margin-bottom: 9%;
+    }
+    .table {
+      font-size: 1rem;
+      width: auto;
+      height: auto;
+      margin: 2%;
+    }
+
+    .editLink {
+
+      text-align: center;
+
+      padding: 5px;
+      
+      padding-right: 10px;
+
+      margin-top: 50%;
+
+    }
+  
+  
+  }
+  

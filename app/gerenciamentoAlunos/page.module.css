@@ -1,0 +1,59 @@
+.container {
+  text-align: center;
+
+  height: 100px;
+}
+
+.h1 {
+
+  margin-top: 5%;
+
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  flex-wrap: wrap;
+
+}
+
+.linkItem {
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  padding: 25px;
+  border-radius: 10px;
+
+}
+
+
+.linkItem:hover {
+
+  border: solid 1px #e5e4e4;
+
+  transform: scale(1.1);
+
+  transition: 300ms;
+
+  box-shadow: 0 20px 30px rgb(0, 0, 0);
+
+}
+
+
+
+.linkItem a {
+  text-decoration: none;
+  color: black;
+}
+
+.icon {
+  margin-bottom: 10px;
+  color: #e30613;
+}
+
+@media only screen and (max-width: 800px) {
+
+
+}

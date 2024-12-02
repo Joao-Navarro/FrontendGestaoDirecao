@@ -1,0 +1,207 @@
+   .container {
+     margin: 0;
+   }
+
+   .h1 {
+
+     margin: 4%;
+
+     text-align: center;
+
+   }
+
+   .form {
+     display: flex;
+     flex-direction: column;
+   }
+
+
+
+   .button {
+
+     display: flex;
+
+     margin-right: 5%;
+
+     background-color: #878787;
+
+     border-radius: 5%;
+
+     padding: 10px;
+
+     border-radius: 10px;
+
+     text-align: center;
+
+     margin: 5%;
+
+   }
+
+   .filtro {
+
+
+     display: flex;
+
+
+     justify-content: space-around;
+
+
+     width: 100%;
+
+
+     align-items: center;
+
+
+     flex-wrap: wrap;
+
+
+     margin-top: 4%;
+
+
+     margin-bottom: 3%;
+   }
+
+   .ano {
+
+
+     display: flex;
+
+
+     background-color: #878787;
+
+
+     padding: 10px;
+
+
+     border-radius: 10px;
+
+
+     justify-content: space-around;
+
+
+     width: 15%;
+   }
+
+
+   .filtro input {
+
+     border-radius: 5px;
+
+     border-color: solid black 2px;
+
+     text-align: center;
+
+     background-color: #acacac;
+
+     padding: 10px;
+
+   }
+
+   .input {
+
+
+     display: flex;
+
+     justify-content: center;
+
+     align-items: center;
+
+     border-radius: 10px;
+
+     padding: 5px;
+   }
+
+   .create {
+
+     display: flex;
+
+     flex-wrap: wrap;
+     
+     width: 100%;
+     
+     justify-content: space-around;
+
+   }
+
+   .createButton {
+
+     display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 50%;
+
+    cursor: pointer;
+
+    background-color: #878787;
+   
+    border-radius: 5%;
+  
+    padding: 10px;
+  
+    border-radius: 10px;
+
+    margin-left: 25%;
+  
+    margin-top: 5%;
+
+    margin-bottom: 5%;
+
+   }
+
+   .back {
+
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+    width: 50%;
+  
+    cursor: pointer;
+  
+    background-color: #878787;
+   
+    border-radius: 5%;
+  
+    padding: 10px;
+  
+    border-radius: 10px;
+  
+    margin-left: 25%;
+  
+    color: #000;
+  
+    text-decoration: none;
+
+    border: #000 1px solid;
+  }
+
+  .msgSucesso {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1000;
+    transition: opacity 0.5s ease;
+  }
+  
+  .msgErro {
+    position: fixed;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #8a1007;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1000;
+    transition: opacity 0.5s ease;
+  }

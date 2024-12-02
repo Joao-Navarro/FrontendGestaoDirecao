@@ -1,0 +1,134 @@
+.body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 35%;
+  background: #878787;
+  padding: 20px; 
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10%;
+ 
+}
+
+.card {
+  padding: 20px;
+}
+
+.card h1 {
+  margin-bottom: 2%;
+}
+
+.h1 {
+  text-align: center;
+  margin-bottom: 5px;
+  height: 5%;
+  width: 5%;
+  
+
+}
+
+.labelFloat {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.label {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  transition: 0.2s ease all;
+  color: #999;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #007bff;
+}
+
+.input:focus + label,
+.input:not(:placeholder-shown) + label {
+  top: -10px;
+  left: 10px;
+  font-size: 12px;
+  color: #007bff;
+}
+
+.justifyCenter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.button {
+  background-color: #534e4e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #5b5b5b;
+}
+
+.hr {
+  margin: 20px 0;
+}
+
+.p {
+  text-align: center;
+}
+
+.a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.a:hover {
+  text-decoration: underline;
+}
+
+#msgError {
+  color: red;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.img{
+  margin-left: 500px;
+  }
+
+
+  @media screen and (max-width: 800px) {
+
+
+
+  .card h1 {
+font-size: medium;  }
+
+.container {
+  width: 100%;
+  margin-top: 20%;
+  }
+
+}
+
+

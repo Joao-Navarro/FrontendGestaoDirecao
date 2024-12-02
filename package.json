@@ -1,0 +1,26 @@
+{
+  "name": "gestao-direcao",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "create-next-app": "^14.2.13",
+    "emailjs": "^4.0.3",
+    "icons": "^1.0.0",
+    "jspdf": "^2.5.2",
+    "next": "^13.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13"
+  }
+}

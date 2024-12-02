@@ -1,0 +1,313 @@
+.body {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    width: 100%;
+
+    max-height: 1000px;
+
+
+}
+
+.card{
+
+    margin: 2%;
+
+    width: 20%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: center;
+
+    border-radius: 10px;
+    
+
+}
+
+.card:hover {
+
+  border: solid 1px #e5e4e4;
+
+  transform: scale(1.1);
+
+  transition: 300ms;
+
+  box-shadow: 0 20px 30px rgb(0, 0, 0);
+
+}
+
+
+.card h3 {
+
+    font-size: 1rem;
+
+    color: #000000;
+  
+}
+
+.cards{
+
+  margin: 2%;
+
+  width: 20%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  text-align: center;
+
+  border-radius: 10px;
+
+  margin-left: 20%;
+
+
+}
+
+.cards:hover{
+
+  border: solid 1px #e5e4e4;
+
+  transform: scale(1.1);
+
+  transition: 300ms;
+
+  box-shadow: 0 20px 30px rgb(0, 0, 0);
+
+
+}
+
+.cards h3 {
+
+  font-size: 1rem;
+
+  color: #000000;
+
+}
+
+.imginterna{
+  width: 70%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 2%;
+  margin-left: 7%;
+  margin-top: 2%;
+}
+
+
+
+.Button {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    margin-bottom: 2%;
+
+    text-decoration: none;
+    
+}
+
+.Button a {
+
+  text-decoration: none;
+
+}
+
+.ButtonGeral {
+
+    color: black;
+  
+    padding: 15px;
+
+    margin: 5%;
+
+    background-color:#878787; 
+ 
+    border-radius: 10px;
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-left: -30%;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    
+  }
+
+
+
+  .ButtonGeral:hover {
+
+    cursor: pointer;
+
+    background-color: #b1b0b0;
+
+    text-decoration: none;
+
+  
+  }
+
+  .ButtonAlunos {
+
+    color: black;
+  
+    padding: 15px;
+
+    margin: 5%;
+
+    background-color:#878787; 
+ 
+    border-radius: 10px;
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-left: -25%;
+
+
+  
+
+  }
+
+  .ButtonAlunos:hover {
+
+    cursor: pointer;
+
+    background-color: #b1b0b0   ;
+
+  }
+  
+
+  
+@media screen and (max-width: 800px) {
+
+    .body {
+
+        display: flex;
+    
+        flex-wrap: wrap;
+    
+        width: 100%;
+
+        height: 800px;
+
+    }
+    
+    .card {
+    
+        width: 40%;
+    
+        display: flex;
+    
+        flex-direction: column;
+
+        text-align: center;
+
+        margin-right: 7%;
+
+        margin-top: 10%;
+
+       
+    }
+    
+    .card h3 {
+      
+        font-size: 80%;
+    
+        color: #000000;
+
+        margin-left: 5%;
+      
+    }
+
+    .cards:hover {
+      border: solid 1px #e5e4e4;
+      transform: scale(1.1);
+      transition: 300ms;
+      box-shadow: 0 20px 30px rgb(0, 0, 0);
+    }
+
+
+    .cards {
+      width: 40%;
+    
+      display: flex;
+  
+      flex-direction: column;
+
+      text-align: center;
+
+      margin-right: 3%;
+
+      margin-left: 3%;
+    }
+
+    .cards h3 {
+
+      font-size: 80%;
+    
+      color: #000000;
+
+      margin-left: 5%;
+
+      margin-top: 2%;
+    }
+
+    .cards:hover {
+      border: solid 1px #e5e4e4;
+      transform: scale(1.1);
+      transition: 300ms;
+      box-shadow: 0 20px 30px rgb(0, 0, 0);
+    }
+
+
+    .imginterna{
+        width: 80%;
+        height: 120px;
+        object-fit: cover;
+        margin-bottom: 2%;
+        margin-left: 7%;
+        margin-top: 2%;
+    }
+    
+  
+
+    .Button {
+    
+        display: flex;
+    
+        align-items: center;
+    
+        justify-content: center;
+    
+        flex-direction: column;
+    
+        width: 90%;
+    
+        margin-bottom: 3%;
+    }
+    
+
+    
+    }
+    
