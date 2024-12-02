@@ -31,7 +31,7 @@ function Home() {
 
         <div className={styles.card}>
 
-          <Link href="/avaliacaoExterna" ><Image className={styles.imginterna} src="/AVEXTERNA.png" alt="avaliação externa" width={300} height={300} /></Link>
+          <Link href="/avaliacaoExterna" ><Image className={styles.imginterna} src="/AvEXTERNA.png" alt="avaliação externa" width={300} height={300} /></Link>
 
           <h3>DESBRAVA ENEM E SARESP</h3>
 
