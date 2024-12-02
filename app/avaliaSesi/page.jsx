@@ -3,7 +3,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import style from "./page.module.css";
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { render } from 'react-dom';
 import Link from 'next/link';
 
 

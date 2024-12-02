@@ -4,7 +4,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import style from "./page.module.css";
 import Header from '@/components/Header';
 import Link from 'next/link';
-import { render } from 'react-dom';
 
 
 
